@@ -18,6 +18,7 @@
 		49F42AC627DE52DF00DBAE14 /* PromoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */; };
 		49F42AC927DE52E700DBAE14 /* PromoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AC727DE52E700DBAE14 /* PromoViewController.swift */; };
 		49F42ACA27DE52E700DBAE14 /* PromoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F42AC827DE52E700DBAE14 /* PromoView.xib */; };
+		49F42ACF27DE634B00DBAE14 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42ACE27DE634B00DBAE14 /* ModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoPresenter.swift; sourceTree = "<group>"; };
 		49F42AC727DE52E700DBAE14 /* PromoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewController.swift; sourceTree = "<group>"; };
 		49F42AC827DE52E700DBAE14 /* PromoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoView.xib; sourceTree = "<group>"; };
+		49F42ACE27DE634B00DBAE14 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,8 @@
 		49F42A9127DE513500DBAE14 /* PromoCodeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				49F42A9227DE513500DBAE14 /* AppDelegate.swift */,
-				49F42A9427DE513500DBAE14 /* SceneDelegate.swift */,
+				49F42AD027DE635B00DBAE14 /* App */,
+				49F42ACE27DE634B00DBAE14 /* ModuleBuilder.swift */,
 				49F42AC227DE52B700DBAE14 /* PromoModule */,
 				49F42A9B27DE513700DBAE14 /* Assets.xcassets */,
 				49F42A9D27DE513700DBAE14 /* LaunchScreen.storyboard */,
@@ -163,6 +165,15 @@
 				49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		49F42AD027DE635B00DBAE14 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49F42A9227DE513500DBAE14 /* AppDelegate.swift */,
+				49F42A9427DE513500DBAE14 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 				49F42AC427DE52CF00DBAE14 /* PromoModel.swift in Sources */,
 				49F42A9327DE513500DBAE14 /* AppDelegate.swift in Sources */,
 				49F42A9527DE513500DBAE14 /* SceneDelegate.swift in Sources */,
+				49F42ACF27DE634B00DBAE14 /* ModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
