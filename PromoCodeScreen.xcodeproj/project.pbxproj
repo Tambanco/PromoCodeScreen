@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		49F42A9327DE513500DBAE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42A9227DE513500DBAE14 /* AppDelegate.swift */; };
 		49F42A9527DE513500DBAE14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42A9427DE513500DBAE14 /* SceneDelegate.swift */; };
-		49F42A9727DE513500DBAE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42A9627DE513500DBAE14 /* ViewController.swift */; };
-		49F42A9A27DE513500DBAE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F42A9827DE513500DBAE14 /* Main.storyboard */; };
 		49F42A9C27DE513700DBAE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F42A9B27DE513700DBAE14 /* Assets.xcassets */; };
 		49F42A9F27DE513700DBAE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F42A9D27DE513700DBAE14 /* LaunchScreen.storyboard */; };
 		49F42AAA27DE513700DBAE14 /* PromoCodeScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AA927DE513700DBAE14 /* PromoCodeScreenTests.swift */; };
@@ -39,8 +37,6 @@
 		49F42A8F27DE513500DBAE14 /* PromoCodeScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromoCodeScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F42A9227DE513500DBAE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F42A9427DE513500DBAE14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49F42A9627DE513500DBAE14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49F42A9927DE513500DBAE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49F42A9B27DE513700DBAE14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F42A9E27DE513700DBAE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49F42AA027DE513700DBAE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +97,6 @@
 			children = (
 				49F42A9227DE513500DBAE14 /* AppDelegate.swift */,
 				49F42A9427DE513500DBAE14 /* SceneDelegate.swift */,
-				49F42A9627DE513500DBAE14 /* ViewController.swift */,
-				49F42A9827DE513500DBAE14 /* Main.storyboard */,
 				49F42A9B27DE513700DBAE14 /* Assets.xcassets */,
 				49F42A9D27DE513700DBAE14 /* LaunchScreen.storyboard */,
 				49F42AA027DE513700DBAE14 /* Info.plist */,
@@ -233,7 +227,6 @@
 			files = (
 				49F42A9F27DE513700DBAE14 /* LaunchScreen.storyboard in Resources */,
 				49F42A9C27DE513700DBAE14 /* Assets.xcassets in Resources */,
-				49F42A9A27DE513500DBAE14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49F42A9727DE513500DBAE14 /* ViewController.swift in Sources */,
 				49F42A9327DE513500DBAE14 /* AppDelegate.swift in Sources */,
 				49F42A9527DE513500DBAE14 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		49F42A9827DE513500DBAE14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49F42A9927DE513500DBAE14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49F42A9D27DE513700DBAE14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +428,6 @@
 				INFOPLIST_FILE = PromoCodeScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +455,6 @@
 				INFOPLIST_FILE = PromoCodeScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
