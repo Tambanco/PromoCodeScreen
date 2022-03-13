@@ -133,12 +133,36 @@
 		49F42AC227DE52B700DBAE14 /* PromoModule */ = {
 			isa = PBXGroup;
 			children = (
+				49F42ACB27DE530600DBAE14 /* Model */,
+				49F42ACC27DE530E00DBAE14 /* View */,
+				49F42ACD27DE531800DBAE14 /* Presenter */,
+			);
+			path = PromoModule;
+			sourceTree = "<group>";
+		};
+		49F42ACB27DE530600DBAE14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				49F42AC327DE52CF00DBAE14 /* PromoModel.swift */,
-				49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49F42ACC27DE530E00DBAE14 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				49F42AC727DE52E700DBAE14 /* PromoViewController.swift */,
 				49F42AC827DE52E700DBAE14 /* PromoView.xib */,
 			);
-			path = PromoModule;
+			path = View;
+			sourceTree = "<group>";
+		};
+		49F42ACD27DE531800DBAE14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
