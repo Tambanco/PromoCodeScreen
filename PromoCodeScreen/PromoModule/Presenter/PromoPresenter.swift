@@ -9,23 +9,38 @@
 
 import Foundation
 
+enum Result {
+    case success
+    case failure
+}
+
 // MARK: Output protocol
 protocol PromoViewProtocol: AnyObject {
-
+    func setPromocode(promocode: String)
+    func showAlert(result: Result)
 }
 
 // MARK: Input protocol
 protocol PromoPresenterProtocol: AnyObject {
     init(view: PromoViewProtocol, model:  PromoModel)
-
+    func codeVerifier(userPromocode: String?)
 }
 
 class PromoPresenter: PromoPresenterProtocol {
-
+    
     weak var view: PromoViewProtocol?
     var model: PromoModel
     
-    // Enter buisness logic here
+    func codeVerifier(userPromocode: String?) {
+        let userPromo = userPromocode ?? "no code"
+        if userPromo == model.promocode {
+            self.view?.setPromocode(promocode: userPromo)
+            self.view?.showAlert(result: .success)
+        } else {
+            self.view?.showAlert(result: .failure)
+        }
+    }
+    
     
     required init(view: PromoViewProtocol, model: PromoModel) {
         self.view = view
