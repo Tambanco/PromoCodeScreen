@@ -32,7 +32,7 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" systemColor="systemGray6Color"/>
             <constraints>
                 <constraint firstItem="VBm-Is-7G4" firstAttribute="centerY" secondItem="q7X-Le-t7N" secondAttribute="centerY" id="3e7-sA-DSf"/>
                 <constraint firstItem="hdB-rb-r3A" firstAttribute="leading" secondItem="q7X-Le-t7N" secondAttribute="leading" constant="20" id="Rxg-f0-XMJ"/>
@@ -44,8 +44,8 @@
         </view>
     </objects>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
