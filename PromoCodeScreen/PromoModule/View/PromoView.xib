@@ -9,7 +9,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PromoViewController" customModule="PromoCodeScreen" customModuleProvider="target">
             <connections>
-                <outlet property="promoCodeLabel" destination="UCk-jK-LSz" id="0VC-h8-bg3"/>
                 <outlet property="promoTextField" destination="hdB-rb-r3A" id="Ra3-Cp-wq5"/>
                 <outlet property="view" destination="q7X-Le-t7N" id="Odf-lK-wLf"/>
             </connections>
@@ -27,12 +26,6 @@
                         <action selector="confirmButtonPressed:" destination="-1" eventType="touchUpInside" id="1dV-F3-3Tu"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCk-jK-LSz">
-                    <rect key="frame" x="20" y="467" width="350" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter promocode here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hdB-rb-r3A">
                     <rect key="frame" x="20" y="325" width="350" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -42,13 +35,9 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="VBm-Is-7G4" firstAttribute="centerY" secondItem="q7X-Le-t7N" secondAttribute="centerY" id="3e7-sA-DSf"/>
-                <constraint firstItem="UCk-jK-LSz" firstAttribute="centerX" secondItem="q7X-Le-t7N" secondAttribute="centerX" id="4gM-uo-z9f"/>
-                <constraint firstItem="UCk-jK-LSz" firstAttribute="top" secondItem="VBm-Is-7G4" secondAttribute="bottom" constant="29.333333333333314" id="871-sH-sWe"/>
-                <constraint firstAttribute="trailing" secondItem="UCk-jK-LSz" secondAttribute="trailing" constant="20" id="OEE-Hv-vwd"/>
                 <constraint firstItem="hdB-rb-r3A" firstAttribute="leading" secondItem="q7X-Le-t7N" secondAttribute="leading" constant="20" id="Rxg-f0-XMJ"/>
                 <constraint firstAttribute="trailing" secondItem="hdB-rb-r3A" secondAttribute="trailing" constant="20" id="TxW-ek-j9c"/>
                 <constraint firstItem="VBm-Is-7G4" firstAttribute="centerX" secondItem="q7X-Le-t7N" secondAttribute="centerX" id="cfC-B7-NTm"/>
-                <constraint firstItem="UCk-jK-LSz" firstAttribute="leading" secondItem="q7X-Le-t7N" secondAttribute="leading" constant="20" id="fIe-kQ-dXd"/>
                 <constraint firstItem="VBm-Is-7G4" firstAttribute="top" secondItem="hdB-rb-r3A" secondAttribute="bottom" constant="47.666666666666686" id="gwz-Lu-zW6"/>
             </constraints>
             <point key="canvasLocation" x="-457" y="-47"/>

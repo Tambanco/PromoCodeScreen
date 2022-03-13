@@ -32,7 +32,7 @@ class PromoPresenter: PromoPresenterProtocol {
     var model: PromoModel
     
     func codeVerifier(userPromocode: String?) {
-        let userPromo = userPromocode ?? "no code"
+        let userPromo = userPromocode ?? ""
         if userPromo == model.promocode {
             self.view?.setPromocode(promocode: userPromo)
             self.view?.showAlert(result: .success)

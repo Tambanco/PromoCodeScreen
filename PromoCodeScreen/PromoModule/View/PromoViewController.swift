@@ -13,12 +13,10 @@ class PromoViewController: UIViewController {
 
 	var presenter: PromoPresenterProtocol!
 
-    @IBOutlet weak var promoCodeLabel: UILabel!
     @IBOutlet weak var promoTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     @IBAction func confirmButtonPressed(_ sender: UIButton) {
         self.presenter.codeVerifier(userPromocode: promoTextField.text)
@@ -28,16 +26,15 @@ class PromoViewController: UIViewController {
 // MARK: - Binding
 extension PromoViewController: PromoViewProtocol {
     func setPromocode(promocode: String) {
-        promoCodeLabel.text = promocode
     }
     
     func showAlert(result: Result) {
         if result == Result.success {
-            let alert = UIAlertController(title: "Successfuly", message: "Your promocode is correct", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Successfully", message: "Your promocode is correct!", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         } else {
-            let alert = UIAlertController(title: "Failure", message: "This promocode is unavailable", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Failure", message: "This promocode is unavailable!", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
