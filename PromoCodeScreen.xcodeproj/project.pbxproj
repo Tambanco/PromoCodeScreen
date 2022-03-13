@@ -14,6 +14,10 @@
 		49F42AAA27DE513700DBAE14 /* PromoCodeScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AA927DE513700DBAE14 /* PromoCodeScreenTests.swift */; };
 		49F42AB427DE513700DBAE14 /* PromoCodeScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AB327DE513700DBAE14 /* PromoCodeScreenUITests.swift */; };
 		49F42AB627DE513700DBAE14 /* PromoCodeScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AB527DE513700DBAE14 /* PromoCodeScreenUITestsLaunchTests.swift */; };
+		49F42AC427DE52CF00DBAE14 /* PromoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AC327DE52CF00DBAE14 /* PromoModel.swift */; };
+		49F42AC627DE52DF00DBAE14 /* PromoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */; };
+		49F42AC927DE52E700DBAE14 /* PromoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42AC727DE52E700DBAE14 /* PromoViewController.swift */; };
+		49F42ACA27DE52E700DBAE14 /* PromoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F42AC827DE52E700DBAE14 /* PromoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		49F42AAF27DE513700DBAE14 /* PromoCodeScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromoCodeScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F42AB327DE513700DBAE14 /* PromoCodeScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeScreenUITests.swift; sourceTree = "<group>"; };
 		49F42AB527DE513700DBAE14 /* PromoCodeScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49F42AC327DE52CF00DBAE14 /* PromoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoModel.swift; sourceTree = "<group>"; };
+		49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoPresenter.swift; sourceTree = "<group>"; };
+		49F42AC727DE52E700DBAE14 /* PromoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewController.swift; sourceTree = "<group>"; };
+		49F42AC827DE52E700DBAE14 /* PromoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 			children = (
 				49F42A9227DE513500DBAE14 /* AppDelegate.swift */,
 				49F42A9427DE513500DBAE14 /* SceneDelegate.swift */,
+				49F42AC227DE52B700DBAE14 /* PromoModule */,
 				49F42A9B27DE513700DBAE14 /* Assets.xcassets */,
 				49F42A9D27DE513700DBAE14 /* LaunchScreen.storyboard */,
 				49F42AA027DE513700DBAE14 /* Info.plist */,
@@ -119,6 +128,17 @@
 				49F42AB527DE513700DBAE14 /* PromoCodeScreenUITestsLaunchTests.swift */,
 			);
 			path = PromoCodeScreenUITests;
+			sourceTree = "<group>";
+		};
+		49F42AC227DE52B700DBAE14 /* PromoModule */ = {
+			isa = PBXGroup;
+			children = (
+				49F42AC327DE52CF00DBAE14 /* PromoModel.swift */,
+				49F42AC527DE52DF00DBAE14 /* PromoPresenter.swift */,
+				49F42AC727DE52E700DBAE14 /* PromoViewController.swift */,
+				49F42AC827DE52E700DBAE14 /* PromoView.xib */,
+			);
+			path = PromoModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F42ACA27DE52E700DBAE14 /* PromoView.xib in Resources */,
 				49F42A9F27DE513700DBAE14 /* LaunchScreen.storyboard in Resources */,
 				49F42A9C27DE513700DBAE14 /* Assets.xcassets in Resources */,
 			);
@@ -251,6 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F42AC627DE52DF00DBAE14 /* PromoPresenter.swift in Sources */,
+				49F42AC927DE52E700DBAE14 /* PromoViewController.swift in Sources */,
+				49F42AC427DE52CF00DBAE14 /* PromoModel.swift in Sources */,
 				49F42A9327DE513500DBAE14 /* AppDelegate.swift in Sources */,
 				49F42A9527DE513500DBAE14 /* SceneDelegate.swift in Sources */,
 			);
