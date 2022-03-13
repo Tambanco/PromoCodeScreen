@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A38DCB27DE695A007286A4 /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A38DCA27DE695A007286A4 /* TestPresenter.swift */; };
 		49F42A9327DE513500DBAE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42A9227DE513500DBAE14 /* AppDelegate.swift */; };
 		49F42A9527DE513500DBAE14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F42A9427DE513500DBAE14 /* SceneDelegate.swift */; };
 		49F42A9C27DE513700DBAE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F42A9B27DE513700DBAE14 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49A38DCA27DE695A007286A4 /* TestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
 		49F42A8F27DE513500DBAE14 /* PromoCodeScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromoCodeScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F42A9227DE513500DBAE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F42A9427DE513500DBAE14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49A38DCC27DE695E007286A4 /* TestPromoModule */ = {
+			isa = PBXGroup;
+			children = (
+				49A38DCA27DE695A007286A4 /* TestPresenter.swift */,
+			);
+			path = TestPromoModule;
+			sourceTree = "<group>";
+		};
 		49F42A8627DE513500DBAE14 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				49F42AA927DE513700DBAE14 /* PromoCodeScreenTests.swift */,
+				49A38DCC27DE695E007286A4 /* TestPromoModule */,
 			);
 			path = PromoCodeScreenTests;
 			sourceTree = "<group>";
@@ -328,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A38DCB27DE695A007286A4 /* TestPresenter.swift in Sources */,
 				49F42AAA27DE513700DBAE14 /* PromoCodeScreenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
