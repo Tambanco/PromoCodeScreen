@@ -18,6 +18,7 @@ class PromoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     @IBAction func confirmButtonPressed(_ sender: UIButton) {
         self.presenter.codeVerifier(userPromocode: promoTextField.text)
     }
